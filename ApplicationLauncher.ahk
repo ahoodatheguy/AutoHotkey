@@ -18,6 +18,7 @@ cm1 := AHI.CreateContextManager(keyboardId)
         Run code
     return
 
+	; Adobe CC
     a::
         Run C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Adobe Photoshop 2021.lnk
     return
@@ -30,12 +31,22 @@ cm1 := AHI.CreateContextManager(keyboardId)
         Run C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Adobe After Effects 2021.lnk
     return
 
+	; Microsoft Office
     w::
         Run C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Word.lnk
     return
 
     e::
         Run C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Excel.lnk
+    return
+
+    ; Explorer Shortcuts
+	+d::
+        Run "C:\Users\Ahadu\Downloads"
+    return
+
+	+q::
+        Run "C:\Users\Ahadu\Documents"
     return
 
     `::
