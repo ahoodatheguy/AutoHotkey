@@ -30,6 +30,14 @@ cm1 := AHI.CreateContextManager(keyboardId)
         Run C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Adobe After Effects 2021.lnk
     return
 
+    w::
+        Run C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Word.lnk
+    return
+
+    e::
+        Run C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Excel.lnk
+    return
+
     `::
         Run C:\Users\Ahadu\Documents\AutoHotInterception\Monitor.ahk
     return
