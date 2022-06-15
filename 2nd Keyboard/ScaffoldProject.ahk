@@ -16,10 +16,9 @@ CreateFolder(FolderName) {
     Sleep, 500
 }
 
-#if cm1.IsActive	; Put hotkeys here.
-    #IfWinActive ahk_class CabinetWClass
+#if cm1.IsActive && WinActive("ahk_class CabinetWClass")	; Put hotkeys here.
     j:: 
-        ; Basic Project
+        ; Basic Video Editing Project
         CreateFolder("Videos")
         CreateFolder("Audio")
         CreateFolder("Assets")
